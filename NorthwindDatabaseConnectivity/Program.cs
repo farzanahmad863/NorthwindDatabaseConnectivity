@@ -8,7 +8,7 @@ namespace NorthwindDatabaseConnectivity
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Database!");
+            Console.WriteLine("Hello!");
             string connectionString = "Data Source=DESKTOP-KF048ET;Initial Catalog=Northwind;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             //SqlConnection conn = new SqlConnection("Data Source = DESKTOP - KF048ET; Initial Catalog = Northwind; Integrated Security = True; Connect Timeout = 30; Encrypt = False; TrustServerCertificate = False; ApplicationIntent = ReadWrite; MultiSubnetFailover = False");
             SqlDataReader dataReader = null;
