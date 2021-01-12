@@ -23,7 +23,7 @@ namespace NorthwindDatabaseConnectivity
                     dataReader = command.ExecuteReader();
                     while (dataReader.Read())
                     {
-                        Console.WriteLine(dataReader);
+                        Console.WriteLine(dataReader[0]+" " + dataReader[1]+" "+ dataReader[2]);
                     }
                 }
 
